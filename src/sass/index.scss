@@ -1,2 +1,14 @@
-@import './common';
-@import './example';
+@import './base/global-styles';
+@import './base/var';
+
+@import './utils/mixins';
+@import './utils/hidden';
+
+@import './components/container';
+
+@import './layout/hero';
+@import './layout/header';
+@import './layout/benefits';
+@import './layout/hotels';
+@import './layout/reviews';
+@import './layout/footer';
